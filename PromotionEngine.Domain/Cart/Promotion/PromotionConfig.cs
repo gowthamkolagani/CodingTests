@@ -17,7 +17,7 @@ namespace PromotionEngine.Domain.Cart.Promotion
 
         public int PromotionItemSetCount { set; get; }
 
-        public decimal? PromotionItemSetValue { set; get; }
+        public decimal PromotionItemSetValue { set; get; }
 
         public PromotionType PromotionType { set; get; }
 
@@ -38,7 +38,7 @@ namespace PromotionEngine.Domain.Cart.Promotion
 
         public List<PromotionConfig> Get()
         {
-            throw new System.NotImplementedException();
+            return PromotionConfigs;
         }
 
         public PromotionConfig GetbyId(int Id)

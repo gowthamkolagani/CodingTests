@@ -7,7 +7,7 @@ namespace PromotionEngine.Application.Contracts
 {
    public interface ICartCaluclatorService
     {
-        double GetProductSetBasedPromotionValue(CartItem cartItem);
+        decimal GetProductSetBasedPromotionValue(CartItem cartItem);
 
         double GetProductvalueIncart(CartItem cartItem);
     }

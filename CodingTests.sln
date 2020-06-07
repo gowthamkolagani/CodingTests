@@ -7,8 +7,6 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PromotionEngine", "Promotio
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BusinessRulesEngine", "BusinessRulesEngine\BusinessRulesEngine.csproj", "{7D8E1E4B-E80E-44D4-9C4E-5A70343EE086}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BusinessRulesEngine.Tests", "BusinessRulesEngine.Tests\BusinessRulesEngine.Tests.csproj", "{1C0755F0-DB2B-4568-AC93-D1B06CA096F8}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PromotionEngine.Tests", "PromotionEngine.Tests\PromotionEngine.Tests.csproj", "{1F1D70DF-75E9-4224-81A8-5D08CCB73B4B}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{20E0D8DB-E2F7-40E2-81C1-B21F91E9705E}"
@@ -33,10 +31,6 @@ Global
 		{7D8E1E4B-E80E-44D4-9C4E-5A70343EE086}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7D8E1E4B-E80E-44D4-9C4E-5A70343EE086}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7D8E1E4B-E80E-44D4-9C4E-5A70343EE086}.Release|Any CPU.Build.0 = Release|Any CPU
-		{1C0755F0-DB2B-4568-AC93-D1B06CA096F8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{1C0755F0-DB2B-4568-AC93-D1B06CA096F8}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{1C0755F0-DB2B-4568-AC93-D1B06CA096F8}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{1C0755F0-DB2B-4568-AC93-D1B06CA096F8}.Release|Any CPU.Build.0 = Release|Any CPU
 		{1F1D70DF-75E9-4224-81A8-5D08CCB73B4B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{1F1D70DF-75E9-4224-81A8-5D08CCB73B4B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1F1D70DF-75E9-4224-81A8-5D08CCB73B4B}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -58,7 +52,6 @@ Global
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
-		{1C0755F0-DB2B-4568-AC93-D1B06CA096F8} = {20E0D8DB-E2F7-40E2-81C1-B21F91E9705E}
 		{1F1D70DF-75E9-4224-81A8-5D08CCB73B4B} = {20E0D8DB-E2F7-40E2-81C1-B21F91E9705E}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
