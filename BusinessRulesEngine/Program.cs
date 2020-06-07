@@ -1,4 +1,5 @@
-﻿using System;
+﻿using BusinessRulesEngine.BusinessRulesEngine.Application;
+using System;
 
 namespace BusinessRulesEngine
 {
@@ -6,7 +7,9 @@ namespace BusinessRulesEngine
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            BusinessRulesFactory businessRulesFactory = new BusinessRulesFactory();
+            int randomProductType = new Random().Next();
+            businessRulesFactory.GetProductInstance(randomProductType).BusinessRuleOperations();
         }
     }
 }
