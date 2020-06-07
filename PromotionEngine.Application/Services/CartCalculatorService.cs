@@ -6,7 +6,7 @@ using System.Text;
 
 namespace PromotionEngine.Application.Services
 {
-    class CartCalculatorService : ICartCaluclatorService
+   public class CartCalculatorService : ICartCaluclatorService
     {
         public double GetProductSetBasedPromotionValue(CartItem cartItem)
         {
