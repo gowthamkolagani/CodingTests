@@ -6,7 +6,7 @@ using System.Text;
 
 namespace BusinessRulesEngine.BusinessRulesEngine.Application
 {
-    public class BusinessRulesFactory
+    public class BusinessRulesFactory 
     {
         public Product GetProductInstance(int x)
         {
