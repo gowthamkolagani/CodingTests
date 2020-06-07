@@ -11,6 +11,6 @@ namespace PromotionEngine.Application.Contracts
 
         int DeleteItemFromCart(CartItem cartItem);
 
-        double CalculateCartValue(List<CartItem> cartItems); 
+        decimal CalculateCartValue(List<CartItem> cartItems); 
     }
 }

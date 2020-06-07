@@ -10,9 +10,11 @@ namespace PromotionEngine.Application.Services
     public class CartService : ICartService
     {
         private readonly ICart cart;
-        public CartService(ICart cart)
+        private readonly ICartCaluclatorService cartCaluclatorService;
+        public CartService(ICart cart, ICartCaluclatorService cartCaluclatorService)
         {
             this.cart = cart;
+            this.cartCaluclatorService = cartCaluclatorService;
         }
         public bool AdditemToCart(CartItem cartItem)
         {
@@ -27,9 +29,9 @@ namespace PromotionEngine.Application.Services
             }
         }
 
-        public double CalculateCartValue(List<CartItem> cartItems)
+        public decimal CalculateCartValue(List<CartItem> cartItems)
         {
-            double CartValue=0;
+            decimal CartValue=0;
             foreach (var item in cartItems)
             {
                switch(item.PromotionType)
@@ -41,10 +43,11 @@ namespace PromotionEngine.Application.Services
                         throw new NotImplementedException();
                         break;
                     case Domain.Cart.Promotion.PromotionType.ProductSetBased:
-
+                        CartValue +=  cartCaluclatorService.GetProductSetBasedPromotionValue(item);
                         break;
                     default:
-                        throw new NotImplementedException();
+                        CartValue += cartCaluclatorService.GetProductSetBasedPromotionValue(item);
+                        break;
                 }
             }
             return CartValue;
