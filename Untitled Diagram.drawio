@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-04-20T16:48:28.256Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.128 Safari/537.36" etag="nzgdc0LqDoaT4iA4tGrj" version="14.6.3" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2021-04-20T16:56:34.542Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.128 Safari/537.36" etag="m09B1euLHkM6WkB56pEG" version="14.6.3" type="github" pages="2">
   <diagram id="_MlIaTFmYdxoSdyCVWUp" name="Page-1">
     <mxGraphModel dx="782" dy="469" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="1">
       <root>
@@ -266,6 +266,15 @@
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="188.25" y="425" as="sourcePoint" />
             <mxPoint x="188.25" y="395" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="S3PebNm3NmK4oPTD0EAq-0" value="" style="aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/mscae/Key_Vaults.svg;rounded=1;shadow=1;glass=0;sketch=0;strokeColor=#000000;fillColor=none;gradientColor=none;" vertex="1" parent="VEdmg4KZLYOPGYcxSgGX-1">
+          <mxGeometry x="260" y="350" width="48" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="S3PebNm3NmK4oPTD0EAq-1" value="" style="endArrow=classic;startArrow=classic;html=1;" edge="1" parent="VEdmg4KZLYOPGYcxSgGX-1" target="S3PebNm3NmK4oPTD0EAq-0">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="220" y="310" as="sourcePoint" />
+            <mxPoint x="320" y="300" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
